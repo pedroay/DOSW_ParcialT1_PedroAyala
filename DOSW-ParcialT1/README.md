@@ -41,3 +41,21 @@ no funcionales
 | **Diagrama de caso de uso** | ![Diagrama de caso de uso - Generacion de reserva](../DOSW-ParcialT1//docs/images/diagrama_caso1.png) |
 | **Poscondiciones** | Se espera como resultado que la reserva se haya creado actualizando el calendario y horario del profesor y estudiante. |
 
+
+| Campo | Descripción |
+|------|-------------|
+| **ID** | HU-01 |
+| **Título** | Solicitud de diferencia entre profesores y estudiantes |
+| **Descripción** | *Como SISTEMA, quiero saber si un tutor es profesor o estudiante, para poder crear corretamente una reserva .* |
+| **Criterios de aceptación** | 1. Dado que el sistema envio una informacion de un profesor el organizador le debe devoler correctamente si es profesor y que materias da<br>2. Dado que el sistema da una informamación de un estudiante el organizador le retorna correctamente la información del estudiante que materias puede dar y que tema generales tambien da.<br>3. Dado que el sistema ingreso un tutor inexsistente el organizador le debe notificar que dicho tutor no existe. |
+| **Prioridad** | *Alta* |
+| **Estimación** | *5 puntos de historia* |
+
+| Campo | Descripción |
+|------|-------------|
+| **ID** | HU-02 |
+| **Título** | generación de una reserva apartir de los solicitado por un solicitante |
+| **Descripción** | *Como SOLICITANTE, quiero generar una reserva con algun tipo de condicion (FASTEST_AVAILABLE,EXPERT_FIRST,PEER_TUTORING), para poder recibir una tutoria dependiendo de las necesidades mias y mis preferencai respecto a temas de estudio.* |
+| **Criterios de aceptación** | 1. Dado que el estudiante escogio la opcion FASTEST_AVAILABLE le genera una reserva con el tutor libre mas proximo, pueden ser tutorias de una hora o media hora<br>2. Dado que el estudiante escogio la opcion ,EXPERT_FIRST le buscara entre los tutores profesores libres mas proximos y si no hay se buscara con los tutores estudiantes pueden pueden ser tutorias de una hora o media hora.<br>3.Dado que el estudiante escogio la opcion PEER_TUTORING buscara los tutores estudiantes libres mas proximos y generara una reserva solo de media hora. |
+| **Prioridad** | *Alta* |
+| **Estimación** | *8 puntos de historia* |
