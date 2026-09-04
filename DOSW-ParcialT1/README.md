@@ -74,3 +74,16 @@ no funcionales
 *link de jira* https://mail-team-lsxe118t.atlassian.net/?continue=https%3A%2F%2Fmail-team-lsxe118t.atlassian.net%2Fwelcome%2Fsoftware%3FprojectId%3D10000&atlOrigin=eyJpIjoiYmEzZTdiNjVhMmVmNDY2ZTk2MzQ4MjcwMzU3YzY0YjciLCJwIjoiamlyYS1zb2Z0d2FyZSJ9
 
 https://mail-team-lsxe118t.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog?selectedIssue=SCRUM-9
+
+### 4 Diseño de Software y 
+
+
+primero vamos a escoger el patron para poder escoger correctamente la opcion que quiere el estudiante para su tutoria
+| Item | Team Explanation |
+|---|---|
+| **Design Pattern Category** | comportamineto |
+| **Pattern Used** | command pattern |
+| **Justification** | se va a usar estre patron ya que nos permite convertir una solicitud en un objeto independiente que contiene toda la información sobre la solicitud en este caso las solictudes seran 3 distintas FASTEST_AVAILABLE,EXPERT_FIRST,PEER_TUTORING estas tres generan un comportamineto distinto al momento de crear la reserva. |
+| **How It Was Applied** |  ![patron de diseño](../DOSW-ParcialT1//docs/images/patron1.png)|
+
+
