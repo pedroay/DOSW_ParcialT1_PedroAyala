@@ -11,7 +11,7 @@ funcionales:
 
 2. el sistema debe poder permitir discriminar entre tutores profesores y estudiantes
 
-3. el sistema debe permitir que al momento de generar una reserva darle  un tiempo determinado y cambiar la dinamica dependiendo en ambos casos si es profesor o estudiante
+3. el sistema debe permitir que al momento de generar una reserva darle  un tiempo determinado y cambiar la dinamica dependiendo en ambos casos si es profesor o estudiante apartir de una opcion que el estudiante haya escogido (FASTEST_AVAILABLE,EXPERT_FIRST,PEER_TUTORING)
 
 no funcionales
 
@@ -59,3 +59,14 @@ no funcionales
 | **Criterios de aceptación** | 1. Dado que el estudiante escogio la opcion FASTEST_AVAILABLE le genera una reserva con el tutor libre mas proximo, pueden ser tutorias de una hora o media hora<br>2. Dado que el estudiante escogio la opcion ,EXPERT_FIRST le buscara entre los tutores profesores libres mas proximos y si no hay se buscara con los tutores estudiantes pueden pueden ser tutorias de una hora o media hora.<br>3.Dado que el estudiante escogio la opcion PEER_TUTORING buscara los tutores estudiantes libres mas proximos y generara una reserva solo de media hora. |
 | **Prioridad** | *Alta* |
 | **Estimación** | *8 puntos de historia* |
+
+### 3 Planeación Agile
+
+![epica parte1](../DOSW-ParcialT1//docs/images/epic1.png) 
+![epica parte2](../DOSW-ParcialT1//docs/images/epic2.png) 
+![historia de usuario parte 1](../DOSW-ParcialT1//docs/images/hu1.png) 
+![historia de usuario parte 2](../DOSW-ParcialT1//docs/images/hu2.png) 
+![historia de usuario parte 3](../DOSW-ParcialT1//docs/images/hu3.png) 
+![tarea1](../DOSW-ParcialT1//docs/images/t1.png) 
+![tarea2](../DOSW-ParcialT1//docs/images/t2.png) 
+![tarea3](../DOSW-ParcialT1//docs/images/t3.png)
