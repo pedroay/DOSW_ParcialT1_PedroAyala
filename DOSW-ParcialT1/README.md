@@ -70,3 +70,7 @@ no funcionales
 ![tarea1](../DOSW-ParcialT1//docs/images/t1.png) 
 ![tarea2](../DOSW-ParcialT1//docs/images/t2.png) 
 ![tarea3](../DOSW-ParcialT1//docs/images/t3.png)
+
+*link de jira* https://mail-team-lsxe118t.atlassian.net/?continue=https%3A%2F%2Fmail-team-lsxe118t.atlassian.net%2Fwelcome%2Fsoftware%3FprojectId%3D10000&atlOrigin=eyJpIjoiYmEzZTdiNjVhMmVmNDY2ZTk2MzQ4MjcwMzU3YzY0YjciLCJwIjoiamlyYS1zb2Z0d2FyZSJ9
+
+https://mail-team-lsxe118t.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog?selectedIssue=SCRUM-9
