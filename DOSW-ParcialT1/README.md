@@ -19,7 +19,16 @@ no funcionales
 
 2. debe tener los colores de la universidad y debe cumplir los estandares minimos de WCAG 2.1 Nivel AA
 
-
+| Campo | Descripción |
+|------|-------------|
+| **ID** | RF-02 |
+| **Nombre del requerimiento** | DISCRIMINACION DE TUTORES |
+| **Descripción** | El sistema debe tener un organizador (una posible base de datos) que discrimine o sepa quienes son los tutores y que tipo de tutores son si son profesores o estudiantes. |
+| **Precondiciones** | Para que el sistema cumpla con este requerimiento, previamente ya se debio diseñar una base de datos e implementarla ademas deberia estar alojada en un servidor y estar conectada mediante una api al servidor|
+| **Actor** | sistema  |
+| **Flujo principal** | 1. el sistema desea saber si el tutor es profesor o estuidante y le pregunta a su organizador.<br>2. el organizador con la información dada por el sistema debe realizar una consulta a su base de datos<br>3. el organizador retorna la información al sistema <br>4.  el sistema hara uso de dicha información. |
+| **Diagrama de caso de uso** | ![Diagrama de caso de uso - DISCRIMINACIÓN DE TUTOR](../DOSW-ParcialT1//docs/images/diagrama_caso2.png) |
+| **Poscondiciones** | Se espera como resultado que la reserva se haya creado actualizando el calendario y horario del profesor y estudiante. |
 
 | Campo | Descripción |
 |------|-------------|
@@ -31,3 +40,4 @@ no funcionales
 | **Flujo principal** | 1. El solicitante inicia sesión en el sistema con sus credenciales.<br>2. el sistema verifica mandandole a enlace el id del estudiante para ver si puede recibir esa tutoria, en caso de que no aqui acabaria el flujo (FASTEST_AVAILABLE,EXPERT_FIRST,PEER_TUTORING).<br>3. El solicitante solicita una tutoria entre 3 opciones <br>4.  El organizador debe descriminar dependiendo de la opcion que el estudiante haya escogido y asignarle un tutor.<br>6. el sistema ya con el tutor asignado debe poder crearle una reserva al estudiante y al profesor <br>7. El sistema notifica a ambos de que se genero una reserva. |
 | **Diagrama de caso de uso** | ![Diagrama de caso de uso - Generacion de reserva](../DOSW-ParcialT1//docs/images/diagrama_caso1.png) |
 | **Poscondiciones** | Se espera como resultado que la reserva se haya creado actualizando el calendario y horario del profesor y estudiante. |
+
